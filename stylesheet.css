@@ -39,6 +39,14 @@ p{
   transition: background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
 }
 
+.nav-item:focus{
+  background-color:white;
+}
+
+.nav-item button{
+  border:none;
+}
+
 .jumbotron {
   background-image: url("images/Jumbotron Copy 2.png");
   background-size:cover;
@@ -123,7 +131,7 @@ h3{
     margin-left: 15px;
 }
 
-a.btn.btn-primary.btn-lg{
+.btn{
   color:black;
   border-radius:20px;
   font-weight:bold;
@@ -131,12 +139,15 @@ a.btn.btn-primary.btn-lg{
 }
 
 .jumbotron .btn{
+  color:black;
+  border-radius:20px;
+  font-weight:bold;
+  font-family: 'Dosis', sans-serif;
   background-color:white;
   color:black;
   border:none;
   margin:0;
   box-shadow: -4px 4px #F6BB7B;
-  cursor: pointer;
 }
 
 .jumbotron .btn:hover{
