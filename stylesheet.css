@@ -216,6 +216,7 @@ footer {
 
 
 
+
 @media (max-width:1285px){
   h1.display-3{
     font-size:3rem;
@@ -246,6 +247,7 @@ footer {
     padding-right: 2rem;
     padding-left: 2rem;
     margin: 0.5rem;
+    display:inline-grid;
 }
 }
 
