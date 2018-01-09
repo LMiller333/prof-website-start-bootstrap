@@ -59,6 +59,10 @@ p{
   text-align:center;
 }
 
+.jumbotron .row{
+  max-width:100%
+}
+
 
 .jumbotron div{
   padding:0rem;
