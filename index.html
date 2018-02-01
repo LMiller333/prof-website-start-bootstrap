@@ -10,6 +10,9 @@
 
     <title>Lindsay Miller, MPH</title>
 
+    <!-- Reset CSS -->
+    <link href="css/reset.css" rel="stylesheet">
+
     <!-- Bootstrap core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
@@ -55,7 +58,7 @@
     </nav>
 
     <header class="masthead text-center text-white d-flex">
-      <div class="container d-flex align-items-end" id="banner-slogan">
+      <div class="container d-flex align-items-center" id="banner-slogan">
         <h1>
           <strong>Human-centered, data-driven, and committed to public well-being</strong>
         </h1>
@@ -70,7 +73,15 @@
             <hr class="light my-4">
             <p class="text-faded mb-4">As I read those two little words on my computer screen, I knew that I had made a huge mistake.</p>
             <p class="text-faded mb-4">If you’ve ever taken a beginning programming class, chances are that the first command you wrote made the words “Hello world!” appear. Seeing that message appear before me, based on a tiny string of code I had written, just seemed too good to be true. Of course, I did what anyone would do...</p>
-            <a class="btn btn-light btn-xl js-scroll-trigger" href="mystory.html">What did I do next?</a>
+            <a id="what-next-btn" class="btn btn-light btn-xl js-scroll-trigger" data-toggle="collapse" data-target="#about-more" aria-expanded="false">What did I do next?</a>
+            <div id="about-more" class="collapse">
+              <p class="text-faded mb-4">I revised the program to insult people that I loved! So this was my first original program — it asked you to enter your name, and if your name was James (my boyfriend’s name), it told you that you were lazy and should make your girlfriend some nachos.</p>
+              <p class="text-faded mb-4">I was thrilled. Not just because I had found another way to ask my boyfriend (and other people named James) for nachos, but because I understood for the first time the beauty and power of programming. In that moment, I saw the potential for logic and algorithms to allow me to do more and do better.</p>
+              <p class="text-faded mb-4">That was also when I realized my mistake: I should have studied computer science.</p> 
+              <p class="text-faded mb-4">Several years later, and pretty far down the public health research road, I’m learning that I didn’t totally screw it up. In fact, my experience and expertise are actually coming together quite nicely. My undergraduate anthropology studies gave me a unique lens and a diverse set of tools through which to observe human behavior, build effective teams, and create human-centered solutions. My persistent dabbling in computing systems and software, information processing, and data analysis — in addition to being a fun talking point at parties — has opened up an entire universe of information that I can leverage to make data-driven decisions. Finally, my master’s level training in public health (combined with my 27 years of experience being a human with struggles) has cemented within me a commitment to public well-being.</p>
+              <a id="good-story-btn" class="btn js-scroll-trigger" href="#skills">Good story. So what?<br><i class="fa fa-angle-down fa-2x" aria-hidden="true"></i></a>
+
+            </div>
           </div>
         </div>
       </div>
@@ -80,7 +91,7 @@
       <div class="container">
         <div class="row">
           <div class="col-lg-12 text-center">
-            <h2 class="section-heading">I'm a full stack UX'er</h2>
+            <h2 class="section-heading">I'm on my way to being a full stack UX'er</h2>
             <hr class="my-4">
           </div>
         </div>
@@ -91,28 +102,28 @@
             <div class="service-box mt-5 mx-auto">
               <i class="fa fa-4x fa-search text-primary mb-3 sr-icons"></i>
               <h3 class="mb-3">Research</h3>
-              <p class="text-muted mb-0">Our templates are updated regularly so they don't break.</p>
+              <p class="text-muted mb-0">Observation, interviews, surveys, ethnography, personas</p>
             </div>
           </div>
           <div class="col-lg-3 col-md-6 text-center">
             <div class="service-box mt-5 mx-auto">
               <i class="fa fa-4x fa-code text-primary mb-3 sr-icons"></i>
               <h3 class="mb-3">Front-End Development</h3>
-              <p class="text-muted mb-0">You can use this theme as is, or you can make changes!</p>
+              <p class="text-muted mb-0">HTML, CSS, Javascript, Python, SQL + more</p>
             </div>
           </div>
           <div class="col-lg-3 col-md-6 text-center">
             <div class="service-box mt-5 mx-auto">
               <i class="fa fa-4x fa-universal-access text-primary mb-3 sr-icons"></i>
               <h3 class="mb-3">Accessible Design</h3>
-              <p class="text-muted mb-0">We update dependencies to keep things fresh.</p>
+              <p class="text-muted mb-0">Scans and remediation</p>
             </div>
           </div>
           <div class="col-lg-3 col-md-6 text-center">
             <div class="service-box mt-5 mx-auto">
               <i class="fa fa-4x fa-bar-chart text-primary mb-3 sr-icons"></i>
-              <h3 class="mb-3">Analytics</h3>
-              <p class="text-muted mb-0">You have to make your websites with love these days!</p>
+              <h3 class="mb-3">Testing and Analytics</h3>
+              <p class="text-muted mb-0">Clickstream/conversion tracking, task analysis, A/B testing, heatmaps, Google Analytics, Tableau</p>
             </div>
           </div>
         </div>
@@ -120,8 +131,8 @@
           <div class="col-lg-3 col-md-6 text-center">
             <div class="service-box mt-5 mx-auto">
               <i class="fa fa-4x fa-user-circle text-primary mb-3 sr-icons"></i>
-              <h3 class="mb-3">User Testing</h3>
-              <p class="text-muted mb-0">Our templates are updated regularly so they don't break.</p>
+              <h3 class="mb-3">Wireframes and Prototypes</h3>
+              <p class="text-muted mb-0">Task analysis, usability tests</p>
             </div>
           </div>
           <div class="col-lg-3 col-md-6 text-center">
@@ -135,14 +146,14 @@
             <div class="service-box mt-5 mx-auto">
               <i class="fa fa-4x fa-paint-brush text-primary mb-3 sr-icons"></i>
               <h3 class="mb-3">Design</h3>
-              <p class="text-muted mb-0">We update dependencies to keep things fresh.</p>
+              <p class="text-muted mb-0">Sketch</p>
             </div>
           </div>
           <div class="col-lg-3 col-md-6 text-center">
             <div class="service-box mt-5 mx-auto">
-              <i class="fa fa-4x fa-th-list text-primary mb-3 sr-icons"></i>
+              <i class="fa fa-4x fa-sitemap text-primary mb-3 sr-icons"></i>
               <h3 class="mb-3">Information Architecture</h3>
-              <p class="text-muted mb-0">You have to make your websites with love these days!</p>
+              <p class="text-muted mb-0">Card sorting, user flows, </p>
             </div>
           </div>
         </div>
@@ -167,6 +178,43 @@
               <p class="text-faded mb-4">Something about my portfolio goes here.</p>
             </div>
           </div>
+          <div class="row">
+            <div class="col-md text-center">
+              <div class="card">
+                <img class="card-img-top" src="img/portfolio/thumbnails/1.jpg" alt="Card image cap">
+                <div class="card-block">
+                  <h4 class="card-title">Card title</h4>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md text-center">
+              <div class="card">
+                <img class="card-img-top" src="img/portfolio/thumbnails/2.jpg" alt="Card image cap">
+                <div class="card-block">
+                  <h4 class="card-title">Card title</h4>
+                  <p class="card-text">Some quicd make up the bulk of the card's content.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md text-center">
+              <div class="card">
+                <img class="card-img-top" src="img/portfolio/thumbnails/3.jpg" alt="Card image cap">
+                <div class="card-block">
+                  <h4 class="card-title">Card title</h4>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-lg-12 text-center">
+              <a class="btn btn-light btn-xl js-scroll-trigger" href="portfolio-all.html">View All</a>
+              <a class="btn btn-ghost btn-xl js-scroll-trigger" href="https://github.com/LMiller333">GitHub Repo <i class="fa fa-external-link" aria-hidden="true"></i></a>
+            </div>
+          </div>
+
         </div>
 
       </section>
@@ -177,7 +225,7 @@
           <div class="col-lg-8 mx-auto text-center">
             <h2 class="section-heading">Drop me a line!</h2>
             <hr class="my-4">
-            <p class="mb-5">Ready to start your next project with us? That's great! Give us a call or send us an email and we will get back to you as soon as possible!</p>
+            <p class="mb-5">Want to collaborate? I would love to hear from you.</p>
           </div>
         </div>
         <div class="row">
@@ -197,6 +245,15 @@
       </div>
     </section>
 
+    <!-- Footer -->
+    <footer class="py-5 bg-dark">
+        <div class="container">
+          <p class="m-0 text-center text-white">Copyright &copy; Lindsay Miller 2018</p>
+          <p class="m-0 text-center text-white">Design adapted from <a href="https://startbootstrap.com/template-overviews/creative/">Creative</a> theme @ StartBootstrap.com</p>
+        </div>
+        <!-- /.container -->
+      </footer>
+
     <!-- Bootstrap core JavaScript -->
     <script src="vendor/jquery/jquery.min.js"></script>
     <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
@@ -208,6 +265,8 @@
 
     <!-- Custom scripts for this template -->
     <script src="js/creative.min.js"></script>
+    <script src="js/custom.js"></script>
+
 
   </body>
 

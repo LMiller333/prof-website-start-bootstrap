@@ -10,6 +10,10 @@ body {
   font-family: 'Merriweather', 'Helvetica Neue', Arial, sans-serif;
 }
 
+.portfolio-all{
+  padding-top:65px;
+}
+
 hr {
   max-width: 50px;
   border-width: 3px;
@@ -128,9 +132,27 @@ img::-moz-selection {
   background-color: transparent;
 }
 
-#resume{
-  margin-top:4rem;
+#mainNav > div > a.navbar-brand.portfolio-brand.js-scroll-trigger{
+  color:#ffffff;
 }
+
+.portfolio-all .row{
+  margin:2rem;
+}
+
+.tags{
+  display:inline;
+}
+
+body > div  > div > div.col-lg-1 {
+  display:flex;
+}
+
+body > div > div > div.col-lg-1 > i{
+  display:none;
+}
+
+
 
 @media (min-width: 500px) {
   .navbar-brand{
@@ -143,6 +165,12 @@ img::-moz-selection {
     border-color: transparent;
     background-color: transparent;
   }
+
+  #mainNav.portfolioNav{
+    background-color:#212529;
+  }
+
+
   #mainNav .navbar-brand {
     color: rgba(255, 255, 255, 0.7);
   }
@@ -164,6 +192,11 @@ img::-moz-selection {
     border-bottom: 1px solid rgba(33, 37, 41, 0.1);
     background-color: #fff;
   }
+
+  #mainNav.portfolioNav.navbar-shrink {
+    border-bottom: 1px solid rgba(33, 37, 41, 0.1);
+    background-color:#212529;
+  }
   #mainNav.navbar-shrink .navbar-brand {
     color: rgb(181, 32, 126);
   }
@@ -178,6 +211,11 @@ img::-moz-selection {
   #mainNav.navbar-shrink .navbar-nav > li.nav-item > a.nav-link:focus:hover {
     color: rgb(216, 3, 198);
   }
+
+  body > div > div > div.col-lg-1 > i{
+    display:flex;
+    align-items:center;
+  }
 }
 
 header.masthead {
@@ -186,7 +224,7 @@ header.masthead {
   background: linear-gradient(
     rgba(57, 59, 85, 0.55), 
     rgba(87, 56, 88, 0.515)
-    ), url("../img/header.jpg") no-repeat top left;
+    );
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -311,6 +349,10 @@ header.masthead p {
   font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
 }
 
+#mainNav > div > a.btn{
+  color:white;
+}
+
 .btn-xl {
   padding: 1rem 2rem;
 }
@@ -327,5 +369,46 @@ header.masthead p {
 
 .btn-primary:active, .btn-primary:focus {
   box-shadow: 0 0 0 0.2rem rgba(240, 95, 64, 0.5) !important;
+}
+
+/*Stuff I Added*/
+
+
+
+#resume{
+  margin-top:4rem;
+}
+
+
+#about-more{
+  padding-top:1.5rem;
+}
+
+
+a#good-story-btn{
+  color:white;
+  padding-top:1rem;
+}
+
+.fa-angle-down{
+  padding-top:1rem;
+}
+
+#portfolio .card{
+  padding:10px;
+  margin:10px;
+}
+
+.card-title{
+  margin-top:0.75rem;
+}
+
+#portfolio .btn{
+  margin:4rem 2rem 0rem 2rem;
+}
+
+.btn-ghost{
+  color:white;
+  border:1px solid white;
 }
 
